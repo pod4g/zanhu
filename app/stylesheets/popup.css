@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.wrapper{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.total-count-container{
+
+}
+.total-count{
+
+}
+
+.count-container{
+
+}
+.count{
+
+}
+
+.no-count-container{
+
+}
+.no-count{
+
+}

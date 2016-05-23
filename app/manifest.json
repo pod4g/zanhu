@@ -1,14 +1,29 @@
 { 
-  "name": "image counter",
+  "name": "赞乎",
   "version": "1.0.0",
   "manifest_version":2,
-  "description": "by pod4g",
-  "permissions": ["http://*/*"],
-  "content_scripts":[
-    {
-       "matches":["http://www.diaox2.com/article/1170.html"],
-       "css":["index.css"],
-       "js":["test.js"]
-    }
-  ]
+  "description": "知乎一键点赞。by big brother",
+  // "background":{
+  //   "page":"index.html"
+  // },
+  // "permissions": ["http://*.zhihu.com/*"],
+  "browser_action": {
+    "default_icon": "images/48-w.png", // optional 
+    "default_title": "赞乎",      // optional; shown in tooltip 
+    "default_popup": "popup.html"        // optional 
+  },
+   "icons" : {
+    "48" : "images/48-w.png",
+    "128" : "images/128-w.png"
+  },
+  "content_scripts":[{
+       // "matches":["http://*.zhihu.com/*"],
+       "matches":["https://*.zhihu.com/*","http://*.zhihu.com/*"],
+       "html":["index.html"],
+       // 这个起作用哦
+       "css":["stylesheets/index.css"],
+       "js":["scripts/index.js"]
+       // "run_at": "document_end",  
+       // "all_frames": true 
+  }]
 }
