@@ -1,0 +1,14 @@
+{ 
+  "name": "image counter",
+  "version": "1.0.0",
+  "manifest_version":2,
+  "description": "by pod4g",
+  "permissions": ["http://*/*"],
+  "content_scripts":[
+    {
+       "matches":["http://www.diaox2.com/article/1170.html"],
+       "css":["index.css"],
+       "js":["test.js"]
+    }
+  ]
+}
