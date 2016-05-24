@@ -1,0 +1,14 @@
+// html,body{
+//     height: 100%;
+//     background: green;
+// }
+html,body{
+    // display: none;
+}
+.bio{
+    background-color: red;
+}
+
+img{
+    border:5px #e60012 solid !important;
+}

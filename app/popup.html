@@ -8,12 +8,29 @@
 <body>
 
 <div class="wrapper">
-    <h2>知乎一键点赞。。</h2>
-    <p class="total-count-container">本页可点赞<span class="total-count"></span>处</p>
-    <p class="count-container">本页你共点击了<span class="count"></span>处</p>
-    <p class="no-count-container">本页你还没有点在<span class="no-count"></span>处</p>
-    <button id="btn">一键点赞</button>
+    <table class="info-grid" cellspacing="0" cellpadding="0">
+        <caption><h2>知乎一键点赞消赞</h2></caption> 
+        <tbody>
+            <tr>
+                <td>本页点赞框：</td>
+                <td><span class="total"></span>处</td>
+            </tr>
+            <tr>
+                <td>本页已点赞：</td>
+                <td><span class="count"></span>处</td>
+            </tr>
+            <tr>
+                <td>本页未点赞：</td>
+                <td><span class="no-count"></span>处</td>
+            </tr>
+            <tr>
+                <td><button id="btn">一键点赞</button></td>
+                <td><button id="cancel-btn">一键消赞</button></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/popup.js"></script>
 </body>
 </html>
