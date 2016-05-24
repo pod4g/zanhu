@@ -18,3 +18,9 @@
 
 2. 用chrome浏览器或其他webkit内核浏览器打开```chrome://extensions/```
 3. 在扩展程序下面点击```加载已解压的扩展程序```,选择程序源码目录```app```导入即可
+
+### issue
+
+目前只能在问题页点赞。例如[https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805)
+
+还不支持在首页feed流中点赞，后续会加上去。
