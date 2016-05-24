@@ -13,6 +13,8 @@
 ### 使用
 
 1. ```git clone https://github.com/pod4g/zanhu```
+
    如果你没有git环境，请点击上方 Clone or download 选择 Download ZIP 下载到本地。解压即可。
+
 2. 用chrome浏览器或其他webkit内核浏览器打开```chrome://extensions/```
 3. 在扩展程序下面点击```加载已解压的扩展程序```,选择程序源码目录```app```导入即可
