@@ -21,9 +21,13 @@
 
 ### issue
 
-目前只能在问题页点赞。例如[https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805)
+- 目前只能在问题页点赞。例如[https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805)
 
-还不支持在首页feed流中点赞，后续会加上去。
+- 还不支持在首页feed流中点赞，后续会加上去。
+
+- 如果一个问题有好几页，下方会出现 更多 按钮，更多按钮之下的无法点赞。后续会加上展开整个页面，在点赞的功能。
+
+
 
 
 ### 知乎已禁止老子点赞了
