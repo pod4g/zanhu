@@ -24,3 +24,6 @@
 目前只能在问题页点赞。例如[https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805)
 
 还不支持在首页feed流中点赞，后续会加上去。
+
+
+### 知乎已禁止老子点赞
